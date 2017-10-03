@@ -1,0 +1,41 @@
+* {
+	margin : 0px;
+	padding :0px;
+}
+
+[v-cloak] {
+	display: none;
+}
+
+body {
+	font-family: 'Open Sans', san-serif;
+}
+
+nav {
+	background-color: #5597b4;
+	margin:  60px auto 45px;
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	width: 100%;
+}
+nav a {
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	padding: 18px 30px;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	/*border: 1px solid red;*/
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.messagePara {
+	text-align: center;
+}
+
+.active {
+	background-color: #e35885;
+}
